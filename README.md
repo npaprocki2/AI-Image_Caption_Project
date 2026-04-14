@@ -52,3 +52,39 @@ Example output:
 * “a brown dog carrying a stick in the woods”
 * “a white plate topped with meat and vegetables”
 
+---
+## Evaluation
+Each caption was manually scored on a scale of 1-5 for:
+- Accuracy
+- Detail
+- Clarity
+
+Final results are stored in 'detailed_results.csv'.
+You can compute average scores by running the evaluation cells in the notebook with the Final results.
+
+## How to Run
+### Google Colab
+1. Open the notebook ('AI_Image_Captioning.ipynb') in Google Colab
+2. Run all cells
+3. Upload your images when prompted
+4. View generated captions and results
+5. Download 'results.csv' and manually enter in scoring
+6. Save as 'detailed_results.csv' and upload when prompted
+
+---
+## Limitations
+* Small dataset size
+* No model fine tuning
+* Captions can be unclear and generic
+* Evauluation is currently manual and subjective
+---
+## Future Work
+* Fine tune the model on a custom dataset
+* Use automated evaluation metrics
+* Build a user interface for real-time use
+---
+## Acknowleddgements
+* Hugging Face
+* PyTorch
+* BLIP model by Salesforce (https://huggingface.co/Salesforce/blip-image-captioning-large)
+* Image sources: Unslpash (https://unsplash.com/)
